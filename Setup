@@ -1,0 +1,8 @@
+0. Make sure you have python3 and uv installed.
+1. run uv sync.
+2. Enter your .venv virtual environment (source .venv/bin/activate for Linux/MacOS, .venv\Scripts\activate for Windows.)
+3. Run "uv run src/manage.py runserver" and visit http://127.0.0.1:8000/ to access the site.
+
+To migrate database changes: 
+    - Navigate to Directory
+    - Run "python3 manage.py migrate"
